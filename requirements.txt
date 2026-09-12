@@ -1,0 +1,8 @@
+# Core (required)
+torch>=1.13          # developed and verified against 2.1.2
+numpy>=1.21          # developed and verified against 1.24.4
+
+# Optional
+tqdm                 # progress bars in build_fpv_dataset.py; it degrades gracefully without
+# Python-RVO2        # only for `evaluate.py --variant orca`; install from the Python-RVO2
+#                    # project (provides the `rvo2` module). Not on PyPI.
